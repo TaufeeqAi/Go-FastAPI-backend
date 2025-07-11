@@ -1,0 +1,3 @@
+backend/go.mod
+.ai_venv/
+ai-services/__pycache__
