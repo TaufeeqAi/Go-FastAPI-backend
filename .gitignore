@@ -1,3 +1,5 @@
 backend/go.mod
 .ai_venv/
 ai-services/__pycache__
+ai-services/.env
+ai-services/ai_factory/__pycache__

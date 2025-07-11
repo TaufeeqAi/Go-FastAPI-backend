@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/hello", api.HelloHandler)
+	http.HandleFunc("/ask", api.AskHandler)
 
 	log.Println("Starting server on :8080")
 	if err := http.ListenAndServe(":8080", nil); err != nil {
